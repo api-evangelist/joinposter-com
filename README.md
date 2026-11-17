@@ -64,5 +64,128 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Poster POS is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://joinposter.com/
+Poster POS provides a cloud‑based iPad and Android point‑of‑sale system for restaurants, cafes, bars and retail shops. The platform offers mobile POS, QR menu, kitchen display, AI‑driven analytics, inventory, finance reporting and multi‑location franchise management. It serves over 27 000 locations worldwide, integrating with Xero, Cloudbeds and other services via a public API.
+
+**Areas:** Point of Sale · Restaurant Management · Inventory · Analytics · Mobile App · Franchise Management · Integrations
+
+## Poster POS on APIs.io
+
+Everything profiled for Poster POS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/joinposter-com/](https://apis.io/providers/joinposter-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Poster POS API](https://apis.io/apis/joinposter-com/joinposter-com-api/) — Poster POS API as documented publicly: 18 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Joinposter Com Webhooks](https://apis.io/asyncapis/joinposter-com/joinposter-com-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiClientsGetgroupsResponse](https://apis.io/schemas/joinposter-com/joinposter-com-get-api-clients-getgroups-response/)
+- [GetApiFinanceGetreportResponse](https://apis.io/schemas/joinposter-com/joinposter-com-get-api-finance-getreport-response/)
+- [GetApiMenuGetcategoryResponse](https://apis.io/schemas/joinposter-com/joinposter-com-get-api-menu-getcategory-response/)
+- [GetApiStorageGetwasteResponse](https://apis.io/schemas/joinposter-com/joinposter-com-get-api-storage-getwaste-response/)
+- [GetApiStorageGetwastesResponse](https://apis.io/schemas/joinposter-com/joinposter-com-get-api-storage-getwastes-response/)
+- [PostApiV2AuthManageResponse](https://apis.io/schemas/joinposter-com/joinposter-com-post-api-v2-auth-manage-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Joinposter Com Context](https://apis.io/jsonld/joinposter-com/joinposter-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Poster POS API Rules](https://apis.io/rules/joinposter-com/joinposter-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Poster POS Domain Security](https://apis.io/security/joinposter-com/joinposter-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Poster POS Plans Pricing](https://apis.io/plans/joinposter-com/joinposter-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://joinposter.com/)
+- [Documentation](https://dev.joinposter.com/)
+- [Getting started](https://dev.joinposter.com/docs/v3/device/setup)
+- [Pricing](https://joinposter.com/en/pricing)
+- [Blog](https://joinposter.com/en/blog)
+- [Terms of service](https://joinposter.com/en/terms)
+- [Privacy policy](https://joinposter.com/en/privacy)
+- [GitHub](https://github.com/joinposter)
+
+## API Evangelist rating
+
+**Kin Score 51.0** — developing · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 11.9 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 59.1 |
+
+**Agent readiness 19.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/joinposter-com/](https://apis.io/providers/joinposter-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Poster POS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/joinposter-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).

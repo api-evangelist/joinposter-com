@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Poster POS provides a cloud‑based iPad and Android point‑of‑sale system for restaurants, cafes, bars and retail shops. The platform offers mobile POS, QR menu, kitchen display, AI‑driven analytics, inventory, finance reporting and multi‑location franchise management. It serves over 27 000 locations worldwide, integrating with Xero, Cloudbeds and other services via a public API.
+Poster POS provides a cloud‑based point‑of‑sale (POS) system for iPad and Android devices, targeting restaurants, cafes, bars, and retail shops. The platform offers order and payment processing, inventory management, staff access controls, analytics, and a marketplace of add‑on applications. It supports multiple business types from quick‑service eateries to full‑service restaurants, delivering a unified interface for sales, kitchen display, and customer engagement.
 
-**Areas:** Point of Sale · Restaurant Management · Inventory · Analytics · Mobile App · Franchise Management · Integrations
+**Areas:** Company · POS · Restaurant · Retail · Cloud
 
 ## Poster POS on APIs.io
 
@@ -74,40 +74,11 @@ Everything profiled for Poster POS is published on APIs.io rather than in this r
 
 ### APIs (1)
 
-- [Poster POS API](https://apis.io/apis/joinposter-com/joinposter-com-api/) — Poster POS API as documented publicly: 18 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own document.
+- [Poster POS API](https://apis.io/apis/joinposter-com/poster-pos-api/) — Poster POS provides a web API for accessing account information, orders, products, and integration capabilities as described in the developer documentation.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
-
-#### AsyncAPI (1)
-
-Event-driven and webhook contracts.
-
-- [Joinposter Com Webhooks](https://apis.io/asyncapis/joinposter-com/joinposter-com-webhooks/)
-
-#### JSON Schema (6)
-
-The data models the API reads and writes.
-
-- [GetApiClientsGetgroupsResponse](https://apis.io/schemas/joinposter-com/joinposter-com-get-api-clients-getgroups-response/)
-- [GetApiFinanceGetreportResponse](https://apis.io/schemas/joinposter-com/joinposter-com-get-api-finance-getreport-response/)
-- [GetApiMenuGetcategoryResponse](https://apis.io/schemas/joinposter-com/joinposter-com-get-api-menu-getcategory-response/)
-- [GetApiStorageGetwasteResponse](https://apis.io/schemas/joinposter-com/joinposter-com-get-api-storage-getwaste-response/)
-- [GetApiStorageGetwastesResponse](https://apis.io/schemas/joinposter-com/joinposter-com-get-api-storage-getwastes-response/)
-- [PostApiV2AuthManageResponse](https://apis.io/schemas/joinposter-com/joinposter-com-post-api-v2-auth-manage-response/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Joinposter Com Context](https://apis.io/jsonld/joinposter-com/joinposter-com-context/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [Poster POS API Rules](https://apis.io/rules/joinposter-com/joinposter-com-rules/)
 
 #### Security (1)
 
@@ -127,7 +98,6 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://joinposter.com/)
 - [Documentation](https://dev.joinposter.com/)
-- [Getting started](https://dev.joinposter.com/docs/v3/device/setup)
 - [Pricing](https://joinposter.com/en/pricing)
 - [Blog](https://joinposter.com/en/blog)
 - [Terms of service](https://joinposter.com/en/terms)
@@ -136,31 +106,31 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 51.0** — developing · rubric 0.28.0 · scored 2026-11-17
+**Kin Score 26.5** — thin · rubric 0.27.0 · scored 2026-11-17
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 55.0 |
-| Contract governance | 79.1 |
-| Operational transparency | 11.9 |
-| Developer ergonomics | 40.5 |
-| Access clarity | 59.1 |
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 73.2 |
 
-**Agent readiness 19.9** — agent-aware
+**Agent readiness 0.0** — human-only
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | yes |
+| Spec Presence | — |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
-| Event Surface Described | unknown |
+| Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
 | Consent Identity | — |
@@ -174,7 +144,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/joinposter-com/](https://apis.io/providers/joinposter-com/).
 
